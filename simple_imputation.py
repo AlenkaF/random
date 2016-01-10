@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.style.use('ggplot')
 
 # Setting up data frame with missing data (df)
 tmp = pd.DataFrame(np.random.randn(100,10))
